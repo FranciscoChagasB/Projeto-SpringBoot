@@ -1,8 +1,8 @@
-package br.edu.ifce.ProjetoFinal.repositories;
+package br.edu.ifce.ProjetoFinal.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import br.edu.ifce.ProjetoFinal.entities.User;
+import br.edu.ifce.ProjetoFinal.model.User;
 
 public interface UserRepository extends JpaRepository<User, Long> {
 
